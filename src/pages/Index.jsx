@@ -19,13 +19,13 @@ const Index = () => {
           />
         </Box>
         <Flex justify="center" gap={4}>
-          <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="teal" variant="outline">
+          <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="orange" variant="outline">
             GitHub
           </Button>
-          <Button as="a" href="https://linkedin.com" target="_blank" leftIcon={<FaLinkedin />} colorScheme="teal" variant="outline">
+          <Button as="a" href="https://linkedin.com" target="_blank" leftIcon={<FaLinkedin />} colorScheme="orange" variant="outline">
             LinkedIn
           </Button>
-          <Button as="a" href="mailto:example@example.com" leftIcon={<FaEnvelope />} colorScheme="teal" variant="outline">
+          <Button as="a" href="mailto:example@example.com" leftIcon={<FaEnvelope />} colorScheme="orange" variant="outline">
             Email
           </Button>
         </Flex>
